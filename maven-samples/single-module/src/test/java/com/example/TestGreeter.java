@@ -20,6 +20,13 @@ public class TestGreeter {
     greeter = new Greeter();
   }
 
+  
+  @Test
+  public void failAlways() {
+    
+    assertTrue(false);
+  }
+
   @Test
   public void greetShouldIncludeTheOneBeingGreeted() {
     String someone = "World";
